@@ -170,3 +170,9 @@ nav .profile-link a{
     padding-bottom: 20px;
     text-align: center;
 }
+
+.blogs-button{
+    border: 1px solid var(--color-black);
+    padding: 10px 15px;
+    font-size: 14px;
+}
