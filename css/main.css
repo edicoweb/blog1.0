@@ -28,6 +28,12 @@ a{
     right: 0; 
 }
 
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+    justify-items: center;
+}
+
 header{
     width: 100%;
     height: 110px;
@@ -70,7 +76,7 @@ nav .nav-logo-container{
 }
 
 nav .nav-logo-container  a img{
-    width: 130px;
+    width: 200px;
     margin-top: 5px;
 }
 
@@ -122,7 +128,7 @@ nav .profile-link a{
     align-items: center;
     border: none;
     border-radius: 4px;
-    box-shadow: rgb(255, 255, 255) 0 0 50px 0;
+    box-shadow: rgba(255, 255, 255, 0.158) 0 0 10px 0;
 }
 
 .home-main-button a{
@@ -175,4 +181,38 @@ nav .profile-link a{
     border: 1px solid var(--color-black);
     padding: 10px 15px;
     font-size: 14px;
+}
+
+.blogs-posts-container .post-container{
+    margin-bottom: 50px;
+}
+
+.sub-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    justify-items: center;
+}
+
+.blogs-posts-container .post-container p{
+    margin-bottom: 35px;
+}
+
+.blogs-posts-container .post-container img{
+    width: 100%; 
+    height: 180px;
+    object-fit: cover; 
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-black);
+    border-top: 35px solid var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    color: var(--color-white);
+    margin-top: 30px;
 }
