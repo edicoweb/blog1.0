@@ -76,7 +76,7 @@ nav .nav-logo-container{
 }
 
 nav .nav-logo-container  a img{
-    width: 200px;
+    width: 170px;
     margin-top: 5px;
 }
 
@@ -219,12 +219,13 @@ footer p {
 }
 
 .blogpost-img-container{
-    padding: 0 50px 40px;
+    padding: 0 50px 10px;
 }
 
 .blogpost-img-container img{
+    margin-top: 15px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .blogpost-main-container{
